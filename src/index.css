@@ -11,6 +11,24 @@ All colors MUST be HSL.
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
+    /* Google Brand Colors */
+    --google-blue: 214 89% 52%;
+    --google-blue-hover: 214 89% 47%;
+    --google-surface: 0 0% 98%;
+    
+    /* Authentication Colors */
+    --auth-primary: 214 89% 52%;
+    --auth-primary-foreground: 0 0% 100%;
+    --auth-secondary: 0 0% 96%;
+    
+    /* Gradients */
+    --gradient-auth: linear-gradient(135deg, hsl(var(--google-blue)), hsl(214 89% 42%));
+    --gradient-surface: linear-gradient(180deg, hsl(var(--background)), hsl(var(--google-surface)));
+    
+    /* Shadows */
+    --shadow-auth: 0 4px 12px hsl(var(--google-blue) / 0.15);
+    --shadow-elevated: 0 8px 32px hsl(0 0% 0% / 0.12);
+
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
 

@@ -24,6 +24,12 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				'google-blue': 'hsl(var(--google-blue))',
+				'google-blue-hover': 'hsl(var(--google-blue-hover))',
+				'google-surface': 'hsl(var(--google-surface))',
+				'auth-primary': 'hsl(var(--auth-primary))',
+				'auth-primary-foreground': 'hsl(var(--auth-primary-foreground))',
+				'auth-secondary': 'hsl(var(--auth-secondary))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
